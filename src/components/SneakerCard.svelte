@@ -6,7 +6,8 @@
   <img src={sneaker.image} alt={sneaker.name} />
   <h2>{sneaker.name}</h2>
   <p>{sneaker.description}</p>
-  <button>Ver detalles</button>
+  <p>Precio: ${sneaker.price}</p>
+  <a href={`/sneaker/${sneaker.id}`} class="details-link">Ver detalles</a>
 </div>
 
 <style>
@@ -21,13 +22,13 @@
     height: auto;
     border-radius: 8px;
   }
-  button{
+  .details-link {
     margin-top: 0.5rem;
-    padding: .5rem 1rem;
-    background: black;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: black;
     color: white;
-    border: none;
     border-radius: 4px;
-    cursor: pointer;
+    text-decoration: none;
   }
 </style>

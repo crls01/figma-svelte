@@ -18,13 +18,15 @@
 </nav>
 
 <style>
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    background: black;
-    color: white;
-  }
+ .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: black;
+  color: white;
+  width: 100%; 
+  margin: 0; 
+}
   ul {
     display: flex;
     list-style: none;

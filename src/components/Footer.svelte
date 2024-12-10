@@ -8,13 +8,14 @@
 </footer>
 
 <style>
-  .footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: black;
-    color: white;
-    margin-top: 2rem;
-  }
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+  width: 100%; 
+}
   nav a {
     color: white;
     text-decoration: none;
