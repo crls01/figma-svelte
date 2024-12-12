@@ -16,10 +16,12 @@
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
+    width: 100%;
   }
   img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
     border-radius: 8px;
   }
   .details-link {
